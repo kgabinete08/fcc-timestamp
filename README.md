@@ -4,7 +4,7 @@ This project is part of the backend certification for **freeCodecamp**. If you a
 
 `npm start` to start the app
 
-App is deployed on Heroku
+App is deployed on Heroku at [https://kg-fcc-timestamp.herokuapp.com/](https://kg-fcc-timestamp.herokuapp.com/)
 
 It accepts input as a date or unix timestamp and will return both the unix timestamp and natural date.
 
