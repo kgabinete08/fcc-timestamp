@@ -1,0 +1,7 @@
+mixin inputForm()
+  .column.column-40
+    form(action="/query" method="POST")
+      fieldset
+        label(for="input") Enter a date or unix string
+        input(type="text" name="input" placeholder="e.g. 946684800 or March 10, 1990")
+        input.button-primary(type="submit" value="Submit")

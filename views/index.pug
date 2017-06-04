@@ -1,0 +1,15 @@
+extends layout
+
+include mixins/_inputForm
+include mixins/_resultCard
+
+block content
+  h1= title
+  p Unix time is a system for describing instants in time, defined as the number of seconds that have elapsed since 00:00:00 (UTC), Thursday, 1 January 1970, minus the number of leap seconds that have taken place since then. Read more about it on 
+    a(href="https://en.wikipedia.org/wiki/Unix_time" target="_blank") Wikipedia.
+    .row
+      +inputForm
+
+  if results
+    .row
+      +resultCard(results)

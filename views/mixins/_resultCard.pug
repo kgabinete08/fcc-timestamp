@@ -1,0 +1,10 @@
+mixin resultCard(results)
+  .column.column-40
+    h3
+      strong Unix timestamp
+      p= results.unixTime
+    h3 
+      strong Natural date
+      p= results.naturalDate
+
+    a(href="/") << Homepage
