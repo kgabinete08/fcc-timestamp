@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1496609302976" clover="3.2.0">
-  <project timestamp="1496609302976" name="All files">
+<coverage generated="1496685119937" clover="3.2.0">
+  <project timestamp="1496685119937" name="All files">
     <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="27" coveredelements="27" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1">
       <file name="dateAndTimestamp.js" path="/Users/kgabinete/coding/free-code-camp/timestamp-app/api/dateAndTimestamp.js">
         <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>

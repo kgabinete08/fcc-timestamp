@@ -18,9 +18,9 @@ const getDateAndTimestamp = (input) => {
   const results = {
     naturalDate,
     unixTime
-  }
+  };
   return results;
-}
+};
 
 const formatDate = (dateStr) => {
   const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November','December'];
@@ -28,6 +28,6 @@ const formatDate = (dateStr) => {
   const month = months[dateStr.getMonth()];
   const date = dateStr.getDate();
   return `${month} ${date}, ${year}`;
-}
+};
 
 module.exports.getDateAndTimestamp = getDateAndTimestamp;
